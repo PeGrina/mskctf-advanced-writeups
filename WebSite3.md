@@ -17,34 +17,19 @@ git log
 Видим все коммиты:
 `
 commit 3adab4d59f5951e0471435643a45d138795efedc (HEAD -> master)
-Author: Aleksandr <aleksandr@ctf.msk.ru>
-Date:   Fri Apr 23 23:01:19 2021 +0300
-
-    Make body black
+Make body black
 
 commit 0582e6c14506689b7d7dc94df34376270701c7d7
-Author: Aleksandr <aleksandr@ctf.msk.ru>
-Date:   Fri Apr 23 23:01:05 2021 +0300
-
-    Add login form
+Add login form
 
 commit b8dfe2717dc0a632ecd9db2cea2eaa5d01fa5b06
-Author: Aleksandr <aleksandr@ctf.msk.ru>
-Date:   Fri Apr 23 23:00:53 2021 +0300
-
-    Remove config
+Remove config
 
 commit 2dd7285b2877ef9a3a5a18eb7bd7970c15c9dd90
-Author: Aleksandr <aleksandr@ctf.msk.ru>
-Date:   Fri Apr 23 22:08:23 2021 +0300
-
-    Add config
+Add config
 
 commit 341d580b5959b9f8a30b3ee31dbf61d6eb4dc940
-Author: Aleksandr <aleksandr@ctf.msk.ru>
-Date:   Fri Apr 23 21:50:05 2021 +0300
-
-    Add Static
+Add Static
 `
 Нам интересен коммит добавления конфига, поэтому прописываем команду: `git show 2dd7285b2877ef9a3a5a18eb7bd7970c15c9dd90`
 И получаем код конфига:
