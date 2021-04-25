@@ -15,7 +15,7 @@ git-dumper http://web.ctf.msk.ru/ctn2021/advancedquals/WebSite3/.git/ WebSite3
 git log
 ```
 Видим все коммиты:
-`
+```text
 commit 3adab4d59f5951e0471435643a45d138795efedc (HEAD -> master)
 Make body black
 
@@ -30,7 +30,7 @@ Add config
 
 commit 341d580b5959b9f8a30b3ee31dbf61d6eb4dc940
 Add Static
-`
+```
 Нам интересен коммит добавления конфига, поэтому прописываем команду: `git show 2dd7285b2877ef9a3a5a18eb7bd7970c15c9dd90`
 И получаем код конфига:
 ```php
